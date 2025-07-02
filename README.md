@@ -58,7 +58,7 @@ export CHECK_INTERVAL=300
 
 ```bash
 # 1 Clone
-git clone https://github.com/<your‑user>/anime‑rss‑proxy.git
+git clone https://github.com/ArihantSharma/RSS_Auto.git
 cd anime‑rss‑proxy
 
 # 2 Python env
