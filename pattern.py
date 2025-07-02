@@ -9,21 +9,16 @@ def match_sub(text):
         
         # Find the season number
         s_match = re.search(season_pattern, name)
-        #print("Anime Name:", match.group(1).strip(), "\nEpisode:", match.group(2).strip())
         if s_match:
             season = s_match.group(1)
             lenS = len(season)
             lenS = int(lenS) + 2
             name = name[:-lenS]
-            #print(f"Season number: {season}")
         else:
             season = None
-            #print("No season number found")
         episode = match.group(2).strip()
         name = name.strip()
-        #print("Anime Name:", name.strip(), "\nEpisode:", match.group(2).strip(), "\nSeason:", season)
     
-        #print("Match found!")
         return name, episode, season, ""
     else:
         print("No match found.")
