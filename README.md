@@ -95,7 +95,7 @@ Now open **[http://localhost:8080/rss/sub](http://localhost:8080/rss/sub)**.
 
 ## ⚡ One‑Click Deploy to Koyeb
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/your‑user/anime‑rss‑proxy&branch=main&name=anime‑rss‑proxy)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/ArihantSharma/RSS_Auto&branch=main)
 
 > During the wizard, add `SECRET_KEY`, `URL_TO_MONITOR`, and `CHECK_INTERVAL` in **Environment Variables**.
 
