@@ -113,7 +113,7 @@ Now open **[http://localhost:8080/rss/sub](http://localhost:8080/rss/sub)**.
 
 ### Pagination
 
-Right now the endpoints return **up to 30 items** (hard‑coded in `app.py`).  If you need classic `?page=`/`?per_page=` pagination, extend `fetch_and_parse_rss()`—the helper already slices to 30 items, so swapping that for a paginator is trivial.
+Right now the endpoints return **up to 30 items** (hard‑coded in `app.py`).  If you need classic ~~`?page=`/`?per_page=`~~ pagination, extend `fetch_and_parse_rss()`—the helper already slices to 30 items, so swapping that for a paginator is trivial.
 
 ---
 
